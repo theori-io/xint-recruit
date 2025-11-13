@@ -69,9 +69,9 @@ You can log in through the frontend interface. The authentication system is alre
 
 Once the backend is running, visit http://localhost:8000/docs for interactive API documentation.
 
-## Assignment (2 Hours)
+## Assignment
 
-**Time Management**: This assessment is designed to take approximately 2 hours. Focus on quality over quantity and demonstrate senior-level engineering judgment.
+**Time Expectations**: This assessment is designed to take approximately 2 hours, but it's fine to spend more or less time as needed. We're not looking for you to go wild here—focus on quality over quantity and demonstrate senior-level engineering judgment. Don't feel pressured to set a timer or rush if you're running a bit behind.
 
 ### Priority 1: Security Review & Fixes (45-60 minutes)
 
@@ -150,15 +150,30 @@ The following areas are known to need attention (this is intentional for the ass
 - Some security best practices may not be fully implemented
 - Error handling could be improved
 
-## Submission Guidelines
+## Getting Started with the Assignment
 
-1. **Fork or clone** this repository
-2. **Complete Priority 1** (security fixes) - this is mandatory
-3. **Complete Priority 2** (one feature) - strongly recommended
-4. **Create `SOLUTION.md`** with your findings and approach (see template below)
-5. **Submit** your solution
+1. **Create a private repository** from this template:
+   - Click "Use this template" → "Create a new repository"
+   - Make sure the repository is **private**
+   - Clone your new private repository locally
 
-**Note**: For a senior role, we're evaluating your problem-solving approach, code quality, and ability to identify and fix security issues. Focus on doing fewer things well rather than rushing through everything.
+2. **Complete the assignment** (see priorities below)
+
+3. **Create `SOLUTION.md`** with your findings and approach (see template below)
+
+4. **Submit your solution**:
+   - Add [@aspcanada](https://github.com/aspcanada) as a collaborator to your private repository
+
+**Privacy Note**: To keep submissions private, please create a private repository from the template rather than forking publicly or creating pull requests.
+
+## LLM Assistance
+
+If you choose to use LLM assistance (ChatGPT, Claude, Copilot, etc.), please disclose this in your `SOLUTION.md`:
+- Which LLM(s) you used
+- How you prompted it (brief description of your prompts)
+- What contributions you made beyond the LLM output (what you had to fix, modify, or add)
+
+We're evaluating your problem-solving approach and engineering judgment, so understanding how you worked with tools is valuable context.
 
 ## SOLUTION.md Template
 
@@ -216,6 +231,12 @@ Create a `SOLUTION.md` file in the root directory with the following structure:
 - Security review & fixes: [X] minutes
 - Feature implementation: [X] minutes  
 - Documentation: [X] minutes
+
+## LLM Assistance (if used)
+
+- **LLM(s) used**: [ChatGPT, Claude, Copilot, etc.]
+- **How I prompted it**: [Brief description of prompts used]
+- **My contributions**: [What I fixed, modified, or added beyond the LLM output]
 ```
 
 ## Evaluation Criteria
